@@ -1,6 +1,6 @@
-import logo from '../../assets/img/logo.svg' //logo é um apelido para o caminho da imagem
+import logo from '../../assets/img/logo.svg'; //logo é um apelido para o caminho da imagem
 
-import './style.css'
+import './style.css';
 
 function Header() {
   return ( //em src={logo} é uma expressão react para colocar o apelido para o caminho da imagem
@@ -17,4 +17,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
