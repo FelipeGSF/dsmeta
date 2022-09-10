@@ -5,7 +5,7 @@ import './style.css';
 function Header() {
   return ( //em src={logo} é uma expressão react para colocar o apelido para o caminho da imagem
     <header>
-      <div class="dsmeta-logo-container">
+      <div className="dsmeta-logo-container">
         <img src={logo} alt="DSMeta" /> 
         <h1>DSMeta</h1>
         <p>
